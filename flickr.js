@@ -46,7 +46,6 @@ var Client = function(apiKey, apiSecret) {
             if(err)
                 callback(err);
             else {
-                console.error('DEBUG: body', body);
                 var json = JSON.parse(body);
                 callback(null, json.auth);
             }
