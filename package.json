@@ -1,7 +1,7 @@
 {
     "name": "flickr-js",
     "description": "Simple Flickr API client",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["flickr", "api"],
     "main" : "flickr.js",
