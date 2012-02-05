@@ -34,7 +34,7 @@ var Client = function(apiKey, apiSecret) {
     var client = {};
     
     client.getAuthURL = function(perms) {
-        var url = 'http://www.flickr.com/services/auth/?';
+        var url = 'http://flickr.com/services/auth/?';
         var sig = getSignature(['api_key=' + apiKey,'perms=' + perms]);
         url += 'api_key=' + apiKey + '&perms=' + perms + '&api_sig=' + sig;
         return url;
