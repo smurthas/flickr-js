@@ -1,11 +1,13 @@
 {
     "name": "flickr-js",
     "description": "Simple Flickr API client",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["flickr", "api"],
     "main" : "flickr.js",
-    "dependencies": {},
+    "dependencies": {
+        "request": ">=2.9.3"
+    },
     "repository" : {"type": "git" , "url": "http://github.com/smurthas/flickr-js.git" },
     "engines": { "node": ">=0.4.6 <0.7.0" }
 }
